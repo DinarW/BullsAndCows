@@ -1,0 +1,23 @@
+{
+  "name": "bullsandcows",
+  "version": "1.0.0",
+  "description": "console game",
+  "main": "src/index.js",
+  "bin": {
+    "BullsAndCows": "bin/BullsAndCows.js"
+  },
+  "scripts": {
+    "test": "echo 'test messege'"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinarW/BullsAndCows.git"
+  },
+  "author": "DinarW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinarW/BullsAndCows/issues"
+  },
+  "homepage": "https://github.com/DinarW/BullsAndCows#readme"
+}
