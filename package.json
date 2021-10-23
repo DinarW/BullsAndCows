@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DinarW/BullsAndCows/issues"
   },
-  "homepage": "https://github.com/DinarW/BullsAndCows#readme"
+  "homepage": "https://github.com/DinarW/BullsAndCows#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

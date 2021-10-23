@@ -1,4 +1,11 @@
-import game from "../src/index.js"
+import readlineSync from 'readline-sync';
+import { BCgame } from "../src/index.js"
 
-console.log("Welcome!");
-game();
+do {
+  const game = BCgame();
+  if (game) {
+    console.log('You WIN!!!')
+  } else {
+    console.log('Game OVER ;(');
+  }
+} while (readlineSync.question('Again? (Y/N): ') !== 'N')
